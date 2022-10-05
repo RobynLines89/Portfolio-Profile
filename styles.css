@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, ::before, ::after {
+    box-sizing: inherit;
+  }
+  body {
+    background-repeat: no-repeat, repeat;
+    background-color: #70587c;
+    font-family: verdana;
+  }
+  
+  h1 {
+    padding: auto;
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    padding: auto;
+    margin-top: 2rem;
+    color: #f9f4f5;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    font-style: italic
+  }
+  
+  #welcome-section {
+    border-style: dashed;
+    border-color: #c8b8db;
+    padding: 10rem 2rem;
+    margin-top: 3rem;
+    viewport: 100%;
+  }
+  
+  #projects {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    font-size: 2rem;
+    text-align: center;
+    color: #502f4c;
+    max-width: 1000px;
+    padding: 1rem;
+    viewport: 100%;
+    
+  }
+  
+  nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c8b8db;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0;
+  }
+  
+  fab {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 20em;
+  }
+  
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  img {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    padding: 5px;
+    vertical-align: middle;
+  }
+  
+  .picture-title {
+    font-size: 2rem;
+  }
